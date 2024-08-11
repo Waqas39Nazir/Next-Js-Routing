@@ -11,7 +11,7 @@ const BlogCard = ({ title, description }: Props) => {
   const router = useRouter();
 
   const navigationHandler = (title: string) => {
-    router.push(`${title}`);
+    router.push(`/blogs/${title}`);
   };
   return (
     <div className="flex flex-col h-fit gap-2 rounded-lg text-black bg-green-300 p-3 shadow-md hover:bg-green-500 hover:text-white">
