@@ -8,17 +8,17 @@ const SingleBlog = () => {
         <p className="text-justify">
           Node.js is an open-source, cross-platform runtime environment that
           allows developers to execute JavaScript code on the server side,
-          outside of a web browser. Built on Chrome's V8 JavaScript engine,
+          outside of a web browser. Built on Chrome{"'"}s V8 JavaScript engine,
           Node.js is designed for building scalable and high-performance network
           applications.Node.js is an open-source, cross-platform runtime
           environment that allows developers to execute JavaScript code on the
-          server side, outside of a web browser. Built on Chrome's V8 JavaScript
-          engine, Node.js is designed for building scalable and high-performance
-          network applications.Node.js is an open-source, cross-platform runtime
-          environment that allows developers to execute JavaScript code on the
-          server side, outside of a web browser. Built on Chrome's V8 JavaScript
-          engine, Node.js is designed for building scalable and high-performance
-          network applications.
+          server side, outside of a web browser. Built on Chrome{"'"}s V8
+          JavaScript engine, Node.js is designed for building scalable and
+          high-performance network applications.Node.js is an open-source,
+          cross-platform runtime environment that allows developers to execute
+          JavaScript code on the server side, outside of a web browser. Built on
+          Chrome{"'"}s V8 JavaScript engine, Node.js is designed for building
+          scalable and high-performance network applications.
         </p>
       </div>
     </div>
