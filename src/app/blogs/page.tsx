@@ -1,0 +1,48 @@
+import React from "react";
+
+const Blogs = () => {
+  const BLOGS = [
+    {
+      title: "Next JS",
+      description: `Next.js is a powerful open-source React framework
+       that enables developers to build fast and user-friendly web applications.
+        It combines the flexibility of React with a rich set of features
+         designed to enhance both development and user experience`,
+    },
+    {
+      title: "React JS",
+      description: `React is widely used in both small and large-scale
+       projects, from simple websites to complex web applications.
+        Its focus on components, performance, and developer experience
+         has made it a leading choice for front-end development.`,
+    },
+    {
+      title: "React JS",
+      description: `React is widely used in both small and large-scale
+       projects, from simple websites to complex web applications.
+        Its focus on components, performance, and developer experience
+         has made it a leading choice for front-end development.`,
+    },
+    {
+      title: "Node JS",
+      description: `Node.js is an open-source, cross-platform runtime environment
+       that allows developers to execute JavaScript code on the server side, outside
+        of a web browser. Built on Chrome's V8 JavaScript engine, Node.js is designed
+         for building scalable and high-performance network applications.`,
+    },
+    {
+      title: "Nest JS",
+      description: `NestJS is a progressive, open-source framework for building efficient,
+       scalable, and maintainable server-side applications using Node.js. It is built with
+        TypeScript, which offers strong typing and modern JavaScript features, while also
+         being fully compatible with JavaScript`,
+    },
+  ];
+  return (
+    <div>
+      <h1>I am Your Blogs Page</h1>
+    </div>
+  );
+};
+
+export default Blogs;
