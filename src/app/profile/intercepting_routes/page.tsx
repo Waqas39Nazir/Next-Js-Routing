@@ -9,7 +9,7 @@ const InterceptingToutes = () => {
 
       <div className="w-full flex flex-col gap-2">
         {array.map((_, index) => {
-          return <PhotoCard key={index} />;
+          return <PhotoCard key={index} index={index} />;
         })}
       </div>
     </div>

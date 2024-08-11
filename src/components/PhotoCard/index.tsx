@@ -1,13 +1,17 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
-const PhotoCard = () => {
+type Props = {
+  index: number;
+};
+
+const PhotoCard = ({ index }: Props) => {
   const router = useRouter();
 
   const navigationHandler = () => {
-    router.push("/profile/intercepting_routes/photos/1");
+    router.push(`/profile/intercepting_routes/photos/${index}`);
   };
   return (
     <div
