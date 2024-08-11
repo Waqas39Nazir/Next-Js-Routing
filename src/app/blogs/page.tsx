@@ -26,10 +26,10 @@ const Blogs = () => {
     },
     {
       title: "Nest JS",
-      description: `Nest.js is a progressive, open-source framework for building efficient,
-       scalable, and maintainable server-side applications using Node.js. It is built with
-        TypeScript, which offers strong typing and modern JavaScript features, while also
-         being fully compatible with JavaScript`,
+      description: `Node.js is an open-source, cross-platform runtime environment
+       that allows developers to execute JavaScript code on the server side, outside
+        of a web browser. Built on Chrome's V8 JavaScript engine, Node.js is designed
+         for building scalable and high-performance network applications.`,
     },
   ];
   return (
