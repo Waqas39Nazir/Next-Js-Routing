@@ -12,7 +12,7 @@ const Blogs = () => {
     },
     {
       title: "React JS",
-      description: `React is widely used in both small and large-scale
+      description: `React.js is widely used in both small and large-scale
        projects, from simple websites to complex web applications.
         Its focus on components, performance, and developer experience
          has made it a leading choice for front-end development.`,
@@ -26,7 +26,7 @@ const Blogs = () => {
     },
     {
       title: "Nest JS",
-      description: `NestJS is a progressive, open-source framework for building efficient,
+      description: `Nest.js is a progressive, open-source framework for building efficient,
        scalable, and maintainable server-side applications using Node.js. It is built with
         TypeScript, which offers strong typing and modern JavaScript features, while also
          being fully compatible with JavaScript`,
