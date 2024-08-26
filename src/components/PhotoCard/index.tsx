@@ -11,7 +11,8 @@ const PhotoCard = ({ index }: Props) => {
   const router = useRouter();
 
   const navigationHandler = () => {
-    router.push(`/profile/intercepting_routes/photos/${index}`);
+    router.push(`/profile/intercepting_routes/photo/${index}`);
+    // router.push(`/profile/intercepting_routes`);
   };
   return (
     <div
